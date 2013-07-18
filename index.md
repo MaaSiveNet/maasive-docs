@@ -12,5 +12,5 @@ During the Private-Beta phase the developers are available to answer any questio
 1. [API Specification](#/docs/specification)
 2. Communicating with your API
 3. Your Account
-4. [API Reference](/reference)
-    - [Fields](/reference/fields)
+4. [API Reference](#/docs/reference)
+    - [Fields](#/docs/reference/fields)
