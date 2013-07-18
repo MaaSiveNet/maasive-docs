@@ -11,6 +11,7 @@ During the Private-Beta phase the developers are available to answer any questio
 
 1. [Getting Started](#/docs/getting-started)
     - [Concepts](#/docs/getting-started/concepts)
+    - [Tools](#/docs/getting-started/tools)
 2. [API Specification](#/docs/specification)
 3. [Communicating with your API](#/docs/communication/rest)
 4. [Your Account](#/docs/account/your-account)
