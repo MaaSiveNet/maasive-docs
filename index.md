@@ -9,8 +9,10 @@ During the Private-Beta phase the developers are available to answer any questio
 
 ##Table of Contents
 
+[Getting Started](#/docs/getting-started)
+
 1. [API Specification](#/docs/specification)
-2. Communicating with your API
-3. Your Account
+2. [Communicating with your API](#/docs/communication/rest)
+3. [Your Account](#/docs/account/your-account)
 4. [API Reference](#/docs/reference)
     - [Fields](#/docs/reference/fields)
