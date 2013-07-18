@@ -9,7 +9,8 @@ During the Private-Beta phase the developers are available to answer any questio
 
 ##Table of Contents
 
-1. API Specification
+1. [API Specification](/specification)
 2. Communicating with your API
 3. Your Account
-4. API Reference
+4. [API Reference](/reference)
+    - [Fields](/reference/fields)
