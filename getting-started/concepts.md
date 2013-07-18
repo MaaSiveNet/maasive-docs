@@ -31,22 +31,22 @@ Resources are the most fundamental object inside the MaaSive ecosystem.  A Resou
 
 Collections are views of Resources.  A Collection specifies which subset of resources should be made available, the access controls, and the URL that they should be made available at.  Each API owns a set of Collections, each defining a set or subset of Resource instances that are accessible through that URL.  Collections on an API might look like this:
 
-{
-    "conf":{},
-    "collections":{
-        "blog-posts":{
-            "methods":{
-                "GET":{"requireAuth": false}
+    {
+        "conf":{},
+        "collections":{
+            "blog-posts":{
+                "methods":{
+                    "GET":{"requireAuth": false}
+                }
+            }
+        },
+        "resources":{
+            "BlogPost":{
+                "title": "String",
+                "text": "String"
             }
         }
-    },
-    "resources":{
-        "BlogPost":{
-            "title": "String",
-            "text": "String"
-        }
     }
-}
 
 
 
