@@ -71,6 +71,22 @@
         <td>DateTimeField</td>
     </tr>
     <tr>
+        <td><code>UUID</code></td>
+        <td>universally unique identifier</td>
+        <td>UUIDField</td>
+    </tr>
+    <tr>
+        <td><code>Set</code></td>
+        <td>a unique field</td>
+        <td>SetField</td>
+    </tr>
+    <tr>
+        <td><code>Stripe</code></td>
+        <td>field for storing Stripe payment info</td>
+        <td>Stripe</td>
+    </tr>
+    
+    <tr>
         <td></td>
         <td></td>
         <td></td>
