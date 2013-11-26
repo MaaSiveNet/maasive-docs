@@ -82,10 +82,14 @@
     </tr>
     <tr>
         <td><code>Stripe</code></td>
-        <td>field for storing Stripe payment info</td>
+        <td>Stripe payment info</td>
         <td>Stripe</td>
     </tr>
-    
+    <tr>
+        <td><code>Query</code></td>
+        <td>[MongoDB-esque] (http://docs.mongodb.org/manual/tutorial/query-documents/) query</td>
+        <td>Query</td>
+    </tr>
     <tr>
         <td></td>
         <td></td>
