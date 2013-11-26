@@ -111,6 +111,21 @@
         <td>VerifiedEmail</td>
     </tr>
     <tr>
+        <td><code>SubResource</code></td>
+        <td>Subset of a resource</td>
+        <td>SubResource</td>
+    </tr>
+    <tr>
+        <td><code>SubCollection</code></td>
+        <td>Nested collection</td>
+        <td>SubCollection</td>
+    </tr>
+    <tr>
+        <td><code>REST Link</code></td>
+        <td>URI to a REST endpoint</td>
+        <td>RestLink</td>
+    </tr>
+    <tr>
         <td></td>
         <td></td>
         <td></td>
