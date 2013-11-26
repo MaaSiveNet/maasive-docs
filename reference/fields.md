@@ -87,8 +87,28 @@
     </tr>
     <tr>
         <td><code>Query</code></td>
-        <td>[MongoDB-esque] (http://docs.mongodb.org/manual/tutorial/query-documents/) query</td>
+        <td>[MongoDB-esque](http://docs.mongodb.org/manual/tutorial/query-documents/) query</td>
         <td>Query</td>
+    </tr>
+    <tr>
+        <td><code>HMAC</code></td>
+        <td>Hash-based message authentication code</td>
+        <td>HMAC</td>
+    </tr>
+    <tr>
+        <td><code>AllowedValues</code></td>
+        <td>validation field - specifiy values that should be allowed</td>
+        <td>AllowedValues</td>
+    </tr>
+    <tr>
+        <td><code>RegEx</code></td>
+        <td>regular expression</td>
+        <td>RegEx</td>
+    </tr>
+    <tr>
+        <td><code>VerifiedEmail</code></td>
+        <td>Email Address verified by account owner</td>
+        <td>VerifiedEmail</td>
     </tr>
     <tr>
         <td></td>
