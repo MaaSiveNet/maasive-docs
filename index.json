@@ -1,13 +1,13 @@
 {
     "files": [
         {"title": "Index", "path": "index.md"}
-    ]
+    ],
     "directories": [
         {
             "title": "Account", 
             "path": "account", 
             "files": [
-                {"title": "Your Account", "path": "your-account.md"}
+                {"title": "Your Account", "path": "account/your-account.md"}
             ]
         },
         {
