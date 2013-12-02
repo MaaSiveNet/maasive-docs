@@ -1,25 +1,48 @@
 {
-    "index": "index.md",
-    "account": {
-        "your account": "your-account.md"
-    },
-    "communication": {
-        "rest": "rest.md"
-    },
-    "getting-started": {
-        "concepts": "concepts.md",
-        "tools": "tools.md"
-    },
-    "reference": {
-        "collections": "collections.md",
-        "fields": "fields.md"
-    },
-    "specification": {
-        "admins": "admins.md",
-        "api spec": "api-spec.md",
-        "collections": "collections.md",
-        "conf": "conf.md",
-        "name": "name.md",
-        "resources": "resources.md"
-    }
+    "files": [
+        {"title": "Index", "path": "index.md"}
+    ]
+    "directories": [
+        {
+            "title": "Account", 
+            "path": "account", 
+            "files": [
+                {"title": "Your Account", "path": "your-account.md"}
+            ]
+        },
+        {
+            "title": "Communication", 
+            "path": "communication", 
+            "files": [
+                {"title": "REST", "path": "rest.md"}
+            ]
+        },
+        {
+            "title": "Getting Started", 
+            "path": "getting-started", 
+            "files": [
+                {"title": "Concpets", "path": "tools.md"}
+            ]
+        },
+        {
+            "title": "API Reference", 
+            "path": "reference", 
+            "files": [
+                {"title": "Collections", "path": "collections.md"},
+                {"title": "Fields", "path": "fields.md"}
+            ]
+        },
+        {
+            "title": "Specification", 
+            "path": "specification", 
+            "files": [
+                {"title": "Admins", "path": "admins.md"},
+                {"title": "API Spec", "path": "api-spec.md"},
+                {"title": "Collections", "path": "collections.md"},
+                {"title": "Configuration", "path": "conf.md"},
+                {"title": "Name", "path": "name.md"},
+                {"title": "Resources", "path": "resources.md"}
+            ]
+        }
+    ]
 }
