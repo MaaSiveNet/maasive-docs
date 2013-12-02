@@ -1,47 +1,47 @@
 {
     "files": [
-        {"title": "Index", "path": "index.md"}
+        {"title": "Index", "file_name": "index.md"}
     ],
     "directories": [
         {
-            "title": "Account", 
-            "path": "account", 
+            "title": "Account",
+            "path": "account",
             "files": [
-                {"title": "Your Account", "path": "account/your-account.md"}
+                {"title": "Your Account", "file_name": "your-account.md"}
             ]
         },
         {
-            "title": "Communication", 
-            "path": "communication", 
+            "title": "Communication",
+            "path": "communication",
             "files": [
-                {"title": "REST", "path": "rest.md"}
+                {"title": "REST", "file_name": "rest.md"}
             ]
         },
         {
-            "title": "Getting Started", 
-            "path": "getting-started", 
+            "title": "Getting Started",
+            "path": "getting-started",
             "files": [
-                {"title": "Concpets", "path": "tools.md"}
+                {"title": "Concpets", "file_name": "tools.md"}
             ]
         },
         {
-            "title": "API Reference", 
-            "path": "reference", 
+            "title": "API Reference",
+            "path": "reference",
             "files": [
-                {"title": "Collections", "path": "collections.md"},
-                {"title": "Fields", "path": "fields.md"}
+                {"title": "Collections", "file_name": "collections.md"},
+                {"title": "Fields", "file_name": "fields.md"}
             ]
         },
         {
-            "title": "Specification", 
-            "path": "specification", 
+            "title": "Specification",
+            "path": "specification",
             "files": [
-                {"title": "Admins", "path": "admins.md"},
-                {"title": "API Spec", "path": "api-spec.md"},
-                {"title": "Collections", "path": "collections.md"},
-                {"title": "Configuration", "path": "conf.md"},
-                {"title": "Name", "path": "name.md"},
-                {"title": "Resources", "path": "resources.md"}
+                {"title": "Admins", "file_name": "admins.md"},
+                {"title": "API Spec", "file_name": "api-spec.md"},
+                {"title": "Collections", "file_name": "collections.md"},
+                {"title": "Configuration", "file_name": "conf.md"},
+                {"title": "Name", "file_name": "name.md"},
+                {"title": "Resources", "file_name": "resources.md"}
             ]
         }
     ]
