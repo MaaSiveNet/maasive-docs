@@ -1,0 +1,25 @@
+{
+    "index": "index.md",
+    "account": {
+        "your account": "your-account.md"
+    },
+    "communication": {
+        "rest": "rest.md"
+    },
+    "getting-started": {
+        "concepts": "concepts.md",
+        "tools": "tools.md"
+    },
+    "reference": {
+        "collections": "collections.md",
+        "fields": "fields.md"
+    },
+    "specification": {
+        "admins": "admins.md",
+        "api spec": "api-spec.md",
+        "collections": "collections.md",
+        "conf": "conf.md",
+        "name": "name.md",
+        "resources": "resources.md"
+    }
+}
