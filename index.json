@@ -19,10 +19,14 @@
             ]
         },
         {
-            "title": "Communication",
-            "category_path": "communication",
+            "title": "REST Methods",
+            "category_path": "rest",
             "files": [
-                {"title": "REST", "file_name": "rest.md"}
+                {"title": "Introduction", "file_name": "rest.md"},
+                {"title": "OPTIONS", "file_name": "options.md"},
+                {"title": "GET", "file_name": "get.md"},
+                {"title": "POST & PUT", "file_name": "post_put.md"},
+                {"title": "DELETE", "file_name": "delete.md"}
             ]
         },
         {
