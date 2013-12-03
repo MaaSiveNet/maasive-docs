@@ -8,8 +8,8 @@ REST stands for [Representational state transfer][1] and is one of the most comm
 - PUT
 - DELETE
 
-[1](http://en.wikipedia.org/wiki/Representational_state_transfer)
-[OPTIONS](#/docs/rest/options.md)
-[GET](#/docs/rest/get.md)
-[POST_PUT](#/docs/rest/post_put.md)
-[DELETE](#/docs/rest/delete.md)
+[1]: http://en.wikipedia.org/wiki/Representational_state_transfer
+[OPTIONS]: #/docs/rest/options.md
+[GET]: #/docs/rest/get.md
+[POST_PUT]: #/docs/rest/post_put.md
+[DELETE]: #/docs/rest/delete.md
