@@ -4,6 +4,14 @@
     ],
     "directories": [
         {
+            "title": "Getting Started",
+            "category_path": "getting-started",
+            "files": [
+                {"title": "Concepts", "file_name": "concepts.md"},
+                {"title": "Tools", "file_name": "tools.md"}
+            ]
+        },
+        {
             "title": "Account",
             "category_path": "account",
             "files": [
@@ -15,13 +23,6 @@
             "category_path": "communication",
             "files": [
                 {"title": "REST", "file_name": "rest.md"}
-            ]
-        },
-        {
-            "title": "Getting Started",
-            "category_path": "getting-started",
-            "files": [
-                {"title": "Concpets", "file_name": "tools.md"}
             ]
         },
         {
