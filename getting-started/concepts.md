@@ -54,7 +54,7 @@ Collections are views of Resources.  A Collection specifies which subset of reso
 
 *To learn more about designing your Collections visit: [Collection Specification](#/docs/specification/collections.md)*
 
-###API SPECIFICATION
+###API Specification
 
 Each API you design in MaaSive.net is represented by an API Object.  The API Object contains the configuration information that describe to MaaSive what sort of information your API should have, and how it should work.  A basic API might look like this:
 
