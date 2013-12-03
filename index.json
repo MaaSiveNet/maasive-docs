@@ -5,28 +5,28 @@
     "directories": [
         {
             "title": "Account",
-            "path": "account",
+            "category_path": "account",
             "files": [
                 {"title": "Your Account", "file_name": "your-account.md"}
             ]
         },
         {
             "title": "Communication",
-            "path": "communication",
+            "category_path": "communication",
             "files": [
                 {"title": "REST", "file_name": "rest.md"}
             ]
         },
         {
             "title": "Getting Started",
-            "path": "getting-started",
+            "category_path": "getting-started",
             "files": [
                 {"title": "Concpets", "file_name": "tools.md"}
             ]
         },
         {
             "title": "API Reference",
-            "path": "reference",
+            "category_path": "reference",
             "files": [
                 {"title": "Collections", "file_name": "collections.md"},
                 {"title": "Fields", "file_name": "fields.md"}
@@ -34,7 +34,7 @@
         },
         {
             "title": "Specification",
-            "path": "specification",
+            "category_path": "specification",
             "files": [
                 {"title": "Admins", "file_name": "admins.md"},
                 {"title": "API Spec", "file_name": "api-spec.md"},
