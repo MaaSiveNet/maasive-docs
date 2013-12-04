@@ -13,8 +13,18 @@ The following examples use the [maasivepy][] sdk, available on Github.
 MaaSive.net accepts standard [application/x-www-form-urlencoded][form-encoded] or [application/json][json-encoded] data.  Most Collections require Authentication and Authorization before allowing write privileges, so these examples assume any auth requirements have already been completed.
 
     import maasivepy
-    m = maasivepy.MaaSiveAPISession('https://api.maasive.net/v2/52957bacc3034e4a0fe22f78', print_pretty=True, verbose=True)
-    m.post('/comments/', data=json.dumps({"title": "a new comment", "text": "this is a brand new comment"}))
+    m = maasivepy.MaaSiveAPISession(
+        'https://api.maasive.net/v2/52957bacc3034e4a0fe22f78',
+        print_pretty=True,
+        verbose=True
+    )
+    m.post(
+        '/comments/',
+        data=json.dumps({
+            "title": "a new comment",
+            "text": "this is a brand new comment"
+        })
+    )
 
 If your request is completed successfully you will get this response body:
 
@@ -45,7 +55,12 @@ returns this response body:
 
 Continuing with the example from above, you may realize that you want to update the text of your comment, and you might do it this way:
 
-    m.put('/comments/529e83e5c3034e4a0fe2d7d8', data=json.dumps({"text": "updated with a PUT"}))
+    m.put(
+        '/comments/529e83e5c3034e4a0fe2d7d8',
+        data=json.dumps({
+            "text": "updated with a PUT"
+        })
+    )
 
 and a subsequent GET:
 
@@ -70,7 +85,13 @@ Because MaaSive.net treats POSTs and PUTs the same as UPSERTS, there are a few m
 
 You can do a PUT with the Id in the request body instead of the URL:
 
-    m.put('/comments/', data=json.dumps({"id": "529e83e5c3034e4a0fe2d7d8", "text": "updated with a PUT and id in the request body"}))
+    m.put(
+        '/comments/',
+        data=json.dumps({
+            "id": "529e83e5c3034e4a0fe2d7d8",
+            "text": "updated with a PUT and id in the request body"
+        })
+    )
 
 and a subsequent GET:
 
@@ -93,7 +114,13 @@ yields this response body:
 
 You don't have to use PUT for update.  You can use POST if you need to like this:
 
-    m.post('/comments/', data=json.dumps({"id": "529e83e5c3034e4a0fe2d7d8", "text": "updated with a POST and id in the request body"}))
+    m.post(
+        '/comments/',
+        data=json.dumps({
+            "id": "529e83e5c3034e4a0fe2d7d8",
+            "text": "updated with a POST and id in the request body"
+        })
+    )
 
 and a subsequent GET:
 
@@ -118,7 +145,19 @@ You don't need to create an individual request for each resource you want to cre
 
 Create two new resources like this:
 
-    m.post('/comments/', data=json.dumps([{"title": "Batch Resource 1", "text": "created in a batch"}, {"title": "Batch Resource 2", "text": "created in a batch"}]))
+    m.post(
+        '/comments/',
+        data=json.dumps([
+            {
+                "title": "Batch Resource 1",
+                "text": "created in a batch"
+            },
+            {
+                "title": "Batch Resource 2",
+                "text": "created in a batch"
+            }
+        ])
+    )
 
 If successful it yields a response like this:
 
