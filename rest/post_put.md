@@ -209,6 +209,6 @@ yields this response body:
     }
 
 [CORS]: http://en.wikipedia.org/wiki/Cross-origin_resource_sharing
-[maasivpy]: https://github.com/ntrepid8/maasivepy
+[maasivepy]: https://github.com/ntrepid8/maasivepy
 [form-encoded]: http://en.wikipedia.org/wiki/Application/x-www-form-urlencoded#The_application.2Fx-www-form-urlencoded_type
 [json-encoded]: http://en.wikipedia.org/wiki/JSON#MIME_type
