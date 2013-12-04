@@ -46,3 +46,5 @@ There are a few different sections in the object:
 **resource** &mdash; a prototype of the Resource model used in this collection
 
 **resource_count** &mdash; the number of resources in the collection
+
+[maasivepy]: https://github.com/ntrepid8/maasivepy

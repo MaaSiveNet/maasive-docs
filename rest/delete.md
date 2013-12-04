@@ -93,3 +93,5 @@ which returns this response body:
     ]
 
 You can check to make sure these are really deleted the same way we did in the example above.  You can also use any of the query methods that work with GET.  You can think of DELETE just like GET except that instead of returning the resources, it deletes them.
+
+[maasivepy]: https://github.com/ntrepid8/maasivepy
