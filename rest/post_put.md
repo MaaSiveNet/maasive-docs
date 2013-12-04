@@ -6,11 +6,7 @@ If an Id is included in the URL or in the object, an update is performed if the 
 
 We made this design choice because some older browsers don't support PUT well, especially with [CORS][].  By treating both POST and PUT as an upsert, we don't break any existing code and make it easy for clients that don't support PUT well to operate just like those that do.
 
-The following examples use the [maasivepy][] sdk, available on Github.
-
-## Creating a new Resource
-
-MaaSive.net accepts standard [application/x-www-form-urlencoded][form-encoded] or [application/json][json-encoded] data.  Most Collections require Authentication and Authorization before allowing write privileges, so these examples assume any auth requirements have already been completed.
+The following examples use the [maasivepy][] sdk, available on Github.  Set it up like this:
 
     import maasivepy
     m = maasivepy.MaaSiveAPISession(
@@ -18,6 +14,11 @@ MaaSive.net accepts standard [application/x-www-form-urlencoded][form-encoded] o
         print_pretty=True,
         verbose=True
     )
+
+## Creating a new Resource
+
+MaaSive.net accepts standard [application/x-www-form-urlencoded][form-encoded] or [application/json][json-encoded] data.  Most Collections require Authentication and Authorization before allowing write privileges, so these examples assume any auth requirements have already been completed.
+
     m.post(
         '/comments/',
         data=json.dumps({
