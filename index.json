@@ -30,14 +30,7 @@
             ]
         },
         {
-            "title": "API Reference",
-            "category_path": "reference",
-            "files": [
-                {"title": "Fields", "file_name": "fields.md"}
-            ]
-        },
-        {
-            "title": "Specification",
+            "title": "API Specification",
             "category_path": "specification",
             "files": [
                 {"title": "Overview", "file_name": "overview.md"},
@@ -45,6 +38,13 @@
                 {"title": "Admins", "file_name": "admins.md"},
                 {"title": "Resources", "file_name": "resources.md"},
                 {"title": "Collections", "file_name": "collections.md"}
+            ]
+        },
+        {
+            "title": "Reference",
+            "category_path": "reference",
+            "files": [
+                {"title": "Fields", "file_name": "fields.md"}
             ]
         }
     ]
