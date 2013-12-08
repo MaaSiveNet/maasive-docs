@@ -33,7 +33,6 @@
             "title": "API Reference",
             "category_path": "reference",
             "files": [
-                {"title": "Collections", "file_name": "collections.md"},
                 {"title": "Fields", "file_name": "fields.md"}
             ]
         },
