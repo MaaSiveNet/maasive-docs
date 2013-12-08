@@ -41,12 +41,11 @@
             "title": "Specification",
             "category_path": "specification",
             "files": [
-                {"title": "Admins", "file_name": "admins.md"},
-                {"title": "API Spec", "file_name": "api-spec.md"},
-                {"title": "Collections", "file_name": "collections.md"},
+                {"title": "Overview", "file_name": "overview.md"},
                 {"title": "Configuration", "file_name": "conf.md"},
-                {"title": "Name", "file_name": "name.md"},
-                {"title": "Resources", "file_name": "resources.md"}
+                {"title": "Admins", "file_name": "admins.md"},
+                {"title": "Resources", "file_name": "resources.md"},
+                {"title": "Collections", "file_name": "collections.md"}
             ]
         }
     ]

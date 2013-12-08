@@ -6,8 +6,7 @@ The very first step in building a MaaSive.net API is to tell the system what you
 
 The API Spec is a JSON document that tells MaaSive how to build your API. The API spec has several different parts:
 
-- [resources](#/docs/specification/resources)
-- [collections](#/docs/specification/collections)
-- [conf](#/docs/specification/conf)
-- [name](#/docs/specification/name)
-- [admins](#/docs/specification/admins)
+- [conf](#/docs/specification/conf.md)
+- [conf](#/docs/specification/admins.md)
+- [resources](#/docs/specification/resources.md)
+- [collections](#/docs/specification/collections.md)
