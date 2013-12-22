@@ -12,6 +12,16 @@
             ]
         },
         {
+            "title": "Auth",
+            "category_path": "auth",
+            "files": [
+                {"title": "Overview", "file_name": "overview.md"},
+                {"title": "Login & Logout", "file_name": "login_logout.md"},
+                {"title": "Registration", "file_name": "registration.md"},
+                {"title": "Verification", "file_name": "verification.md"}
+            ]
+        },
+        {
             "title": "REST Methods",
             "category_path": "rest",
             "files": [
