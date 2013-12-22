@@ -7,7 +7,6 @@ The following examples use the [maasivepy][] sdk, available on Github.  Set it u
     import maasivepy
     m = maasivepy.MaaSiveAPISession(
         'https://api.maasive.net/v2/52957bacc3034e4a0fe22f78',
-        print_pretty=True,
         verbose=True
     )
 
