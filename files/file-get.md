@@ -8,7 +8,9 @@ To make it easy to incorporate files into your API, files can be access directly
 
 ![file-access.png](https://s3.amazonaws.com/maasive-docs/assets/images/file-access.png)
 
-This is the same file that we uploaded in the file POST example.  Here it is accessed through an `/images/` Collection with the Collection Resource set to `file`.  Other access restrictions can be added if desired.
+This is the same file that we uploaded in the file POST example.  Here it is accessed through an `/images/` Collection with the Collection Resource set to `file`.  Other access restrictions can be added if desired.  Here is what our `/images/` collection looks like:
+
+![images-collection.png](https://s3.amazonaws.com/maasive-docs/assets/images/images-collection.png)
 
 If desired the files can be listed in the data explorer just like JSON documents are:
 
